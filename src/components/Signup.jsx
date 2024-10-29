@@ -19,7 +19,7 @@ export default function Signup({ role }) {
 
 
     try {
-      const response = await fetch('https://parcial2-back.vercel.app/user/signup', {
+      const response = await fetch('https://ganacomoloco-back.vercel.app/user/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
