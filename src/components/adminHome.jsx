@@ -44,14 +44,14 @@ export default function AdminHome({ user }) {
     return (
         <div className="admin-home">
             <header className="admin-home-header">
-                <h1>Gana Como Loco - Admin Pane</h1>
+                <h1>Vista admin</h1>
                 <button onClick={handleLogout} className="logout-button">Salir</button>
-                <button onClick={handleLogoutAdmin} className="logout-button-admin">Agregar Admin</button>  
+                
             </header>
             
             <main>
                 <section className="winners-section">
-                    <h2>Winners Table</h2>
+                    <h2>Ganadores recientes</h2>
                     <div className="table-container">
                         <table className="winners-table">
                             <thead>
