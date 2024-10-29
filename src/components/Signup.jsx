@@ -16,15 +16,7 @@ export default function Signup({ role }) {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    // Validaciones personalizadas
-    if (formData.phone.length < 10) {
-      alert("El número de celular debe tener al menos 10 dígitos.");
-      return;
-    }
-    if (formData.idNumber.length < 8) {
-      alert("La cédula debe tener al menos 8 dígitos.");
-      return;
-    }
+
 
     try {
       const response = await fetch('https://ganacomoloco-back.vercel.app/user/signup', {
@@ -100,7 +92,7 @@ export default function Signup({ role }) {
               id="phone"
               autoComplete="tel"
               required
-              placeholder="+57"
+              placeholder="Solo nums de Colombia"
               value={formData.phone}
               onChange={handleChange}
             />
