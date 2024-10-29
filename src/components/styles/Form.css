@@ -125,7 +125,7 @@ input:focus {
   transition: background-color 0.2s; /* Transición para el hover */
 }
 .submit-button {
-  background-color: #1eff00;
+  background-color: #d1d1d1 ;
   color: black;
   padding: 0.75rem;
   border: none;
@@ -134,6 +134,4 @@ input:focus {
   cursor: pointer;
   transition: background-color 0.2s;
 }
-.signup-button:hover {
-  background-color: #17c900; /* Color de fondo al pasar el ratón */
-}
+
