@@ -130,16 +130,17 @@ export default function Signup({ role }) {
               onChange={handleChange}
             >
               <option value="">Selecciona una ciudad</option>
-              <option value="Bogotá">Bogotá</option>
-              <option value="Medellín">Medellín</option>
               <option value="Cali">Cali</option>
               <option value="Barranquilla">Barranquilla</option>
               <option value="Cartagena">Cartagena</option>
+              <option value="Bogotá">Bogotá</option>
+              <option value="Cúcuta">Cúcuta</option>
+              <option value="Medellín">Medellín</option>
               <option value="Bucaramanga">Bucaramanga</option>
               <option value="Pereira">Pereira</option>
               <option value="Manizales">Manizales</option>
               <option value="Santa Marta">Santa Marta</option>
-              <option value="Cúcuta">Cúcuta</option>
+              
             </select>
           </div>
           <button type="submit" className="submit-button">
