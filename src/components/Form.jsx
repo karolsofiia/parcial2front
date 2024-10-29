@@ -43,7 +43,7 @@ export default function Login({ callback }) {
   return (
     <div className="login-container">
       <div className="login-form-container">
-      <center><h1 className='form-title_gcl'>GANA COMO LOCO !</h1></center>
+      <center><h1 className='form-title_gcl'>Bienvenidisimo</h1></center>
         <h2 className='inisesion'>Inicia Sesion</h2>
         <form className="login-form" onSubmit={validateUser}>
           <div className="form-group">
@@ -57,12 +57,12 @@ export default function Login({ callback }) {
             />
           </div>
           <button type="submit" className="submit-button">
-            Ingresar
+            Get In
           </button>
         </form>
         <div className="signup-link">
-          <Link to="/Signup" className="signup-button">
-            Regístrate
+          <Link to="/Signup" >
+            Registreichon
           </Link>
         </div>
 
