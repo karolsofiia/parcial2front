@@ -156,7 +156,7 @@ export default function Signup({ role }) {
         </form>
         <div className="login-link">
           <Link to="/Form" className="login-button">
-            ¿Ya tienes una cuenta? Inicia sesión
+            Inicia sesión con cuenta existente
           </Link>
         </div>
       </div>
