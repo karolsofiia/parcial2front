@@ -13,7 +13,7 @@ export default function AdminHome({ user }) {
     useEffect(() => {
         const fetchWinners = async () => {
             try {
-                const response = await fetch('https://parcial2-back.vercel.app//codes/getWinners', {
+                const response = await fetch('https://parcial2-back.vercel.app/codes/getWinners', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
