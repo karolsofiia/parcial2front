@@ -62,7 +62,7 @@ export default function Login({ callback }) {
         </form>
         <div className="signup-link">
           <Link to="/Signup" >
-            Registreichon
+           Si no tiene cuenta, Registrese bebé
           </Link>
         </div>
 
