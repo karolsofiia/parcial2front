@@ -63,7 +63,7 @@
   }
   
   .submit-button {
-    background-color: #edfc24;
+    background-color: #aa4aac ;
     color: rgb(0, 0, 0);
     padding: 0.75rem;
     border: none;
@@ -75,13 +75,9 @@
     margin-bottom: 0.5rem;
   }
   
-  .submit-button:hover {
-    background-color: #17c900;
-  }
-  
   .login-button {
     display: inline-block; /* Para que se comporte como un bloque */
-    background-color: #1eff00; /* Color de fondo del botón */
+    background-color: #4aaca0; /* Color de fondo del botón */
     color: black; /* Color del texto */
     padding: 0.75rem 1.5rem; /* Espaciado interno */
     border: none; /* Sin borde */
@@ -93,7 +89,5 @@
     transition: background-color 0.2s; /* Transición para el hover */
   }
   
-  .login-button:hover {
-    background-color: #17c900; /* Color de fondo al pasar el ratón */
-  }
+
   
